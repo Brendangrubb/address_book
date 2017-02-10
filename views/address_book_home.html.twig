@@ -13,14 +13,15 @@
         <br>
 
         <div id="list_of_contacts">
-            <h2>Here is a list of your contacts:</h2>
-            <ul>
+
             {% if all_contacts is not empty %}
-                {% for contact in all_contacts %}
-                    <li>{{contact.name}} // {{contact.number}} // {{contact.address}} </li>
-                {% endfor %}
+                <h2>Here is a list of your contacts:</h2>
+                <ul>
+                    {% for contact in all_contacts %}
+                        <li>{{contact.name}} // {{contact.number}} // {{contact.address}} </li>
+                    {% endfor %}
+                </ul>
             {% endif %}
-            </ul>
         </div>
         <br>
 

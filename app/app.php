@@ -29,7 +29,6 @@
             $_POST['number'],
             $_POST['address']
         );
-
         $new_contact->save();
 
         return $app['twig']->render('add_a_contact.html.twig', array('new_contact' => $new_contact));
