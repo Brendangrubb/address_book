@@ -1,9 +1,9 @@
 <?php
 class Contact
 {
-    private $name
-    private $number
-    private $address
+    private $name;
+    private $number;
+    private $address;
 
     function __construct($name, $number, $address) {
         $this->name = $name;
@@ -24,15 +24,15 @@ class Contact
     }
 
     function getName() {
-        $return $this->name;
+        return $this->name;
     }
 
     function getNumber() {
-        $return $this->number;
+        return $this->number;
     }
 
     function getAddress() {
-        $return $this->address;
+        return $this->address;
     }
 
     function save() {
