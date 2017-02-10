@@ -3,7 +3,9 @@
 
 &nbsp;
 ## Description
-# **_DESCRIPTIONDESCRIPTIONDESCRIPTION_**
+Address Book is an application created to demonstrate my understanding of objects and the implementation of Silex and Twig in PHP. With this app, the user will be able to create, save and display contacts in the style of an address book. The user will also be able to clear their entire contact list. Contacts will be stored in the user's cookies and will be available until the contacts are deleted or cookies are cleared through the browser.
+
+
 
 &nbsp;
 ## Specifications
@@ -11,8 +13,7 @@
 |Behavior|Input|Output|
 |--------|-----|------|
 | Enter New Contact | Jenny Morton, 503-867-5309, 999 NE Wall St, Portland, Or 97220 | You Saved a New Contact! // Jenny Morton, 503-867-5309, 999 NE Wall St, Portland, Or 97220 // Click here to add another |
-| Navigate Back to Home Page |  |  |
-| Delete All Contacts |  |  |
+| Delete All Contacts | User clicks Delete All Contacts button | You have deleted all of your contacts // Click here to add new contacts |
 
 
 &nbsp;
