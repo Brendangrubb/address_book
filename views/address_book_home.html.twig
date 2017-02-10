@@ -13,20 +13,38 @@
         <br>
 
         <div id="list_of_contacts">
-
             {% if all_contacts is not empty %}
-                <h2>Here is a list of your contacts:</h2>
-                <ul>
+                <h4>Here is a list of your contacts:</h4>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5><u>Name</u></h5>
+                    </div>
+                    <div class="col-md-4">
+                        <h5><u>Phone Number</u></h5>
+                    </div>
+                    <div class="col-md-4">
+                        <h5><u>Address</u></h5>
+                    </div>
+                </div>
                     {% for contact in all_contacts %}
-                        <li>{{contact.name}} // {{contact.number}} // {{contact.address}} </li>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>{{contact.name}}</h6>
+                            </div>
+                            <div class="col-md-4">
+                                <h6>{{contact.number}}</h6>
+                            </div>
+                            <div class="col-md-4">
+                                <h6>{{contact.address}}</h6>
+                            </div>
+                        </div>
                     {% endfor %}
-                </ul>
             {% endif %}
         </div>
         <br>
 
         <form id="create_contact" action="/add_a_contact" method="post">
-            <h2>Create a New Contact</h2>
+            <h3>Create a New Contact:</h3>
             <div class="form-group">
                 <label for="name">Name</label>
                 <input id="name" class="form-control" name="name" type="text" placeholder="Enter a new contact's first and last name">
@@ -39,6 +57,7 @@
                 <label for="address">Address</label>
                 <input id="address" class="form-control" name="address" type="text" placeholder="Enter a new contact's street, city, state and zip code">
             </div>
+            <br>
             <button class="btn btn-outline-success" type="submit">Create Contact</button>
         </form>
         <br>
@@ -46,7 +65,6 @@
         <form id="delete_contact" action="delete_all_contacts" method="post">
             <button class="btn btn-outline-danger"type="submit">Delete All Contacts</button>
         </form>
-
 
     </div>
 </body>

@@ -23,7 +23,6 @@
     });
 
     $app->post('/add_a_contact', function() use ($app){
-
         $new_contact = new Contact(
             $_POST['name'],
             $_POST['number'],

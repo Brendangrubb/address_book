@@ -12,15 +12,15 @@ class Contact
     }
 
     function setName($new_name) {
-        $this->name = strtoupper($new_name);
+        $this->name = $new_name;
     }
 
     function setNumber($new_number) {
-        $this->number = strtoupper($new_number);
+        $this->number = $new_number;
     }
 
     function setAddress($new_address) {
-        $this->address = strtoupper($new_address);
+        $this->address = $new_address;
     }
 
     function getName() {
