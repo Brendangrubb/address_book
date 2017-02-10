@@ -3,7 +3,7 @@
 
 &nbsp;
 ## Description
-Address Book is an application created to demonstrate my understanding of objects and the implementation of Silex and Twig in PHP. With this app, the user will be able to create, save and display contacts in the style of an address book. The user will also be able to clear their entire contact list. Contacts will be stored in the user's cookies and will be available until the contacts are deleted or cookies are cleared through the browser.
+Address Book is an application created to demonstrate my understanding of objects and the implementation of Silex and Twig in PHP. With this app, the user will be able to create, save and display contacts in the style of an address book. The user will also be able to clear their entire contact list. Contacts will be stored in the user's cookies and will be available until the contacts are deleted by the user or cookies are cleared through the browser.
 
 
 
