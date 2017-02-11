@@ -12,8 +12,9 @@ Address Book is an application created to demonstrate my understanding of object
 
 |Behavior|Input|Output|
 |--------|-----|------|
-| Enter New Contact | Jenny Morton, 503-867-5309, 999 NE Wall St, Portland, Or 97220 | You Saved a New Contact! // Jenny Morton, 503-867-5309, 999 NE Wall St, Portland, Or 97220 // Click here to add another |
-| Delete All Contacts | User clicks Delete All Contacts button | You have deleted all of your contacts // Click here to add new contacts |
+| Enter New Contact | Jenny Morton, 503-867-5309, 999 NE Wall St, Portland, Or 97220, Friend | You Added a New Contact! // Jenny Morton
+503-867-5309 999 NE Wall St, Portland, Or 97220 // View/Add Contacts |
+| Delete All Contacts | User clicks Delete All Contacts button | You Have Deleted All of Your Contacts // Add Contacts |
 
 
 &nbsp;
@@ -23,7 +24,7 @@ Address Book is an application created to demonstrate my understanding of object
 * Download the zip file via the green button
 * Unzip the file and open the **_address_book-master_** folder
 * Open Terminal, navigate to **_address_book-master_** project forlder, type **_composer install_** and hit enter
-* Navagate Terminal to the **_web_** folder and set up a server by typing **_php -S localhost:8000_**
+* Navagate Terminal to the **_address_book-master/web_** folder and set up a server by typing **_php -S localhost:8000_**
 * Type **_localhost:8000_** into your web browser
 * The application will load and be ready to use!
 
@@ -37,6 +38,8 @@ Address Book is an application created to demonstrate my understanding of object
 * Silex
 * Twig
 * Bootstrap
+* CSS
+* HTML
 
 &nbsp;
 _If you have any questions or comments about this program, you can contact me at [brendangrubb@gmail.com](mailto:brendangrubb@gmail.com)._
