@@ -26,7 +26,8 @@
         $new_contact = new Contact(
             $_POST['name'],
             $_POST['number'],
-            $_POST['address']
+            $_POST['address'],
+            $_POST['acquaintance']
         );
         $new_contact->save();
 

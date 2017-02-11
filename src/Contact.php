@@ -4,11 +4,13 @@ class Contact
     private $name;
     private $number;
     private $address;
+    private $acquaintance;
 
-    function __construct($name, $number, $address) {
+    function __construct($name, $number, $address, $acquaintance) {
         $this->name = $name;
         $this->number = $number;
         $this->address = $address;
+        $this->acquaintance = $acquaintance;
     }
 
     function setName($new_name) {
@@ -23,6 +25,10 @@ class Contact
         $this->address = $new_address;
     }
 
+    function setAcquaintance($new_acquaintance) {
+        $this->acquaintance = $new_acquaintance;
+    }
+
     function getName() {
         return $this->name;
     }
@@ -33,6 +39,10 @@ class Contact
 
     function getAddress() {
         return $this->address;
+    }
+
+    function getAcquaintance() {
+        return $this->acquaintance;
     }
 
     function save() {

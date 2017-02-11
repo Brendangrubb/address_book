@@ -15,26 +15,32 @@
         {% if all_contacts is not empty %}
             <h4 id="list_of_contacts">Here is a list of your contacts:</h4>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h5><u>Name</u></h5>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h5><u>Phone Number</u></h5>
                 </div>
                 <div class="col-md-4">
                     <h5><u>Address</u></h5>
                 </div>
+                <div class="col-md-2">
+                    <h5><u>Category</u></h5>
+                </div>
             </div>
                 {% for contact in all_contacts %}
                     <div id="contact_list" class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <h6>{{contact.name}}</h6>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <h6>{{contact.number}}</h6>
                         </div>
                         <div class="col-md-4">
                             <h6>{{contact.address}}</h6>
+                        </div>
+                        <div class="col-md-2">
+                            <h6>{{contact.acquaintance}}</h6>
                         </div>
                     </div>
                 {% endfor %}
@@ -54,6 +60,20 @@
                 <div class="form-group">
                     <label for="address">Address</label>
                     <input id="address" class="form-control" name="address" type="text" placeholder="Enter a new contact's street, city, state and zip code">
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="acquaintance" value="Family" checked>
+                        Family
+                    </label>
+                    <label>
+                        <input type="radio" name="acquaintance" value="Friend" checked>
+                        Friend
+                    </label>
+                    <label>
+                        <input type="radio" name="acquaintance" value="Work" checked>
+                        Work
+                    </label>
                 </div>
                 <br>
                 <button class="btn btn-outline-secondary btn-lg" type="submit">Create Contact</button>
