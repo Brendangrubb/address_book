@@ -12,8 +12,7 @@ Address Book is an application created to demonstrate my understanding of object
 
 |Behavior|Input|Output|
 |--------|-----|------|
-| Enter New Contact | Jenny Morton, 503-867-5309, 999 NE Wall St, Portland, Or 97220, Friend | You Added a New Contact! // Jenny Morton
-503-867-5309 999 NE Wall St, Portland, Or 97220 // View/Add Contacts |
+| Enter New Contact | Jenny Morton, 503-867-5309, 999 NE Wall St, Portland, Or 97220, Friend | You Added a New Contact! // Jenny Morton 503-867-5309 999 NE Wall St, Portland, Or 97220 // View/Add Contacts |
 | Delete All Contacts | User clicks Delete All Contacts button | You Have Deleted All of Your Contacts // Add Contacts |
 
 
