@@ -19,6 +19,7 @@ Address Book is an application created to demonstrate my understanding of object
 &nbsp;
 ## Setup/Installation Requirements
 ##### _To view and use this application:_
+* You will need the dependency manager Composer installed on your computer to use this application. Go to [getcomposer.org] (https://getcomposer.org/) to download Composer for free.
 * Go to my [Github repository] (https://github.com/Brendangrubb/address_book)
 * Download the zip file via the green button
 * Unzip the file and open the **_address_book-master_** folder
@@ -36,6 +37,7 @@ Address Book is an application created to demonstrate my understanding of object
 * PHP
 * Silex
 * Twig
+* Composer
 * Bootstrap
 * CSS
 * HTML
